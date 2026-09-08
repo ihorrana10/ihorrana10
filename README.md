@@ -21,3 +21,15 @@ Atualmente estou aprofundando meus conhecimentos em programação e desenvolvend
 
 ```text
 Aprender → Praticar → Criar → Evoluir → Trabalhar com tecnologia
+
+## 📂 Projetos
+
+🚧 Em breve, meus projetos estarão aqui.
+
+## 🛠️ Tecnologias
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=html,css,js,react,nodejs,mysql,git,github" />
+
+</div>
