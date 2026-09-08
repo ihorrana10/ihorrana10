@@ -16,13 +16,11 @@ Atualmente estou aprofundando meus conhecimentos em programação e desenvolvend
 
 ## 🚀 Meu objetivo
 
-🎯 Meu objetivo é conquistar minha primeira oportunidade na área de TI e continuar evoluindo como desenvolvedora.
+ Meu objetivo é conquistar minha primeira oportunidade na área de TI e continuar evoluindo como desenvolvedora.
     
    Aprender → Praticar → Criar → Evoluir → Trabalhar com tecnologia
 
-```text'''
-
-## 🛠️ Tecnologias
+## Tecnologias
 
 <div align="center">
 
