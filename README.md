@@ -1,6 +1,6 @@
 <div align="center">
 
-# 👩🏻‍💻 Ihorrana
+# Ihorrana
 
 ### Full Stack Developer
 
