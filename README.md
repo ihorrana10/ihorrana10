@@ -9,7 +9,7 @@
 
 ## ✨ Sobre mim
 
-Olá! Eu sou **Ihorrana**.
+## Olá! Eu sou **Ihorrana**.
 
 Estou construindo minha trajetória na área de tecnologia com foco em **desenvolvimento Full Stack**.
 Atualmente estou aprofundando meus conhecimentos em programação e desenvolvendo projetos para transformar aprendizado em experiência prática.
