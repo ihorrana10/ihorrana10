@@ -1,10 +1,5 @@
 <div align="center">
-
-# Ihorrana
-
-### Full Stack Developer
-
-Construindo minha carreira em tecnologia, um projeto de cada vez.
+<img src="./banner.jpeg" width="100%"
 
 </div>
 
