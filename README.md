@@ -1,16 +1,28 @@
-## Hi there 👋
+<div align="center">
 
-<!--
-**ihorrana10/ihorrana10** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# 👩🏻‍💻 Ihorrana
 
-Here are some ideas to get you started:
+### Full Stack Developer
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Construindo minha carreira em tecnologia, um projeto de cada vez.
+
+</div>
+
+---
+
+## ✨ Sobre mim
+
+Olá! Eu sou *Ihorrana*.
+
+Estou construindo minha trajetória na área de tecnologia com foco em *desenvolvimento Full Stack*.
+
+Atualmente estou aprofundando meus conhecimentos em programação e desenvolvendo projetos para transformar aprendizado em experiência prática.
+
+🎯 Meu objetivo é conquistar minha primeira oportunidade na área de TI e continuar evoluindo como desenvolvedora.
+
+---
+
+## 🚀 Meu objetivo
+
+```text
+Aprender → Praticar → Criar → Evoluir → Trabalhar com tecnologia
