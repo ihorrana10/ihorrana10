@@ -1,9 +1,5 @@
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ihorrana10/ihorrana10/main/dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ihorrana10/ihorrana10/main/light.svg">
-    <img alt="Banner Ihorrana" src="./banner.jpeg" width="100%">
-  </picture>
+    <img src="./banner.jpeg"  alt="banner Ihorrana" width="100%">
 </div>
 
 ---
