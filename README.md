@@ -23,15 +23,8 @@
 
 <h2>🛠️ Tecnologias</h2>
 
-<p>
-  <img src="https://cdn.simpleicons.org/html5/FF2FAE" width="45" alt="HTML5" />
-  <img src="https://cdn.simpleicons.org/css/FF2FAE" width="45" alt="CSS" />
-  <img src="https://cdn.simpleicons.org/javascript/FF2FAE" width="45" alt="JavaScript" />
-  <img src="https://cdn.simpleicons.org/react/FF2FAE" width="45" alt="React" />
-  <img src="https://cdn.simpleicons.org/nodedotjs/FF2FAE" width="45" alt="Node.js" />
-  <img src="https://cdn.simpleicons.org/mysql/FF2FAE" width="45" alt="MySQL" />
-  <img src="https://cdn.simpleicons.org/git/FF2FAE" width="45" alt="Git" />
-  <img src="https://cdn.simpleicons.org/github/FF2FAE" width="45" alt="GitHub" />
+<p align="center">
+  <img src="./assets/tecnologias.svg" width="850" alt="Tecnologias" />
 </p>
 
 ## 🐍 Gráfico de Contribuições
