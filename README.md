@@ -15,23 +15,31 @@
 ## 📊 Estatísticas
 
 <div align="center">
-  <img width="100%" src="https://streak-stats.demolab.com/?user=ihorrana10&hide_border=true&background=0A101F&stroke=22D3EE&ring=A78BFA&fire=10B981&currStreakLabel=22D3EE&sideLabels=94A3B8&currStreakNum=F8FAFC&sideNums=F8FAFC&dates=64748B&titleColor=22D3EE&card_width=1180" alt="streak" />
+  <img width="100%" src="https://streak-stats.demolab.com/?user=ihorrana10&hide_border=true&background=07030C&stroke=B31FCC&ring=E026FF&fire=FF2FAE&currStreakLabel=E026FF&sideLabels=B31FCC&currStreakNum=FFE3F5&sideNums=FFE3F5&dates=FFE3F5&titleColor=E026FF&card_width=1180" alt="streak" />
   <br/><br/>
-  <img width="49%" src="https://github-readme-stats-fast.vercel.app/api?username=ihorrana10&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&hide_border=true&title_color=22D3EE&icon_color=A78BFA&text_color=94A3B8&bg_color=0A101F" alt="stats" />
-  <img width="49%" src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=ihorrana10&layout=compact&langs_count=8&hide_border=true&title_color=22D3EE&text_color=94A3B8&bg_color=0A101F" alt="top langs" />
+  <img width="49%" src="https://github-readme-stats-fast.vercel.app/api?username=ihorrana10&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&hide_border=true&title_color=E026FF&icon_color=FF2FAE&text_color=FFE3F5&bg_color=07030C" alt="stats" />
+  <img width="49%" src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=ihorrana10&layout=compact&langs_count=8&hide_border=true&title_color=E026FF&text_color=FFE3F5&bg_color=07030C" alt="top langs" />
 </div>
 
-## 🛠️ Tecnologias
+<h2>🛠️ Tecnologias</h2>
 
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,react,nodejs,mysql,git,github" />
-</div>
+<p>
+  <img src="https://cdn.simpleicons.org/html5/FF2FAE" width="45" alt="HTML5" />
+  <img src="https://cdn.simpleicons.org/css/FF2FAE" width="45" alt="CSS" />
+  <img src="https://cdn.simpleicons.org/javascript/FF2FAE" width="45" alt="JavaScript" />
+  <img src="https://cdn.simpleicons.org/react/FF2FAE" width="45" alt="React" />
+  <img src="https://cdn.simpleicons.org/nodedotjs/FF2FAE" width="45" alt="Node.js" />
+  <img src="https://cdn.simpleicons.org/mysql/FF2FAE" width="45" alt="MySQL" />
+  <img src="https://cdn.simpleicons.org/git/FF2FAE" width="45" alt="Git" />
+  <img src="https://cdn.simpleicons.org/github/FF2FAE" width="45" alt="GitHub" />
+</p>
 
----
 ## 🐍 Gráfico de Contribuições
 
 <div align="center">
   <picture>
+    <!-- O arquivo github-snake-dark.svg já está configurado para usar -->
+    <!-- o tema dark padrão do GitHub que combina com suas cores escurecidas -->
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ihorrana10/ihorrana10/output/github-snake-dark.svg" />
     <img alt="Snake animation" src="https://raw.githubusercontent.com/ihorrana10/ihorrana10/output/github-snake.svg" />
   </picture>
