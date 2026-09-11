@@ -1,0 +1,125 @@
+<svg width="850" height="120" viewBox="0 0 850 120"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- HTML -->
+  <g filter="url(#glow)">
+    <image href="https://cdn.simpleicons.org/html5/ff4fa3"
+           x="20" y="20" width="75" height="75">
+      <animateTransform
+        attributeName="transform"
+        type="scale"
+        values="1;1.12;1"
+        dur="2s"
+        repeatCount="indefinite"/>
+    </image>
+  </g>
+
+  <!-- CSS -->
+  <g filter="url(#glow)">
+    <image href="https://cdn.simpleicons.org/css/ff4fa3"
+           x="125" y="20" width="75" height="75">
+      <animateTransform
+        attributeName="transform"
+        type="scale"
+        values="1;1.12;1"
+        dur="2s"
+        begin="0.25s"
+        repeatCount="indefinite"/>
+    </image>
+  </g>
+
+  <!-- JavaScript -->
+  <g filter="url(#glow)">
+    <image href="https://cdn.simpleicons.org/javascript/ff4fa3"
+           x="230" y="20" width="75" height="75">
+      <animateTransform
+        attributeName="transform"
+        type="scale"
+        values="1;1.12;1"
+        dur="2s"
+        begin="0.5s"
+        repeatCount="indefinite"/>
+    </image>
+  </g>
+
+  <!-- React -->
+  <g filter="url(#glow)">
+    <image href="https://cdn.simpleicons.org/react/ff4fa3"
+           x="335" y="20" width="75" height="75">
+      <animateTransform
+        attributeName="transform"
+        type="scale"
+        values="1;1.12;1"
+        dur="2s"
+        begin="0.75s"
+        repeatCount="indefinite"/>
+    </image>
+  </g>
+
+  <!-- Node.js -->
+  <g filter="url(#glow)">
+    <image href="https://cdn.simpleicons.org/nodedotjs/ff4fa3"
+           x="440" y="20" width="75" height="75">
+      <animateTransform
+        attributeName="transform"
+        type="scale"
+        values="1;1.12;1"
+        dur="2s"
+        begin="1s"
+        repeatCount="indefinite"/>
+    </image>
+  </g>
+
+  <!-- MySQL -->
+  <g filter="url(#glow)">
+    <image href="https://cdn.simpleicons.org/mysql/ff4fa3"
+           x="545" y="20" width="75" height="75">
+      <animateTransform
+        attributeName="transform"
+        type="scale"
+        values="1;1.12;1"
+        dur="2s"
+        begin="1.25s"
+        repeatCount="indefinite"/>
+    </image>
+  </g>
+
+  <!-- Git -->
+  <g filter="url(#glow)">
+    <image href="https://cdn.simpleicons.org/git/ff4fa3"
+           x="650" y="20" width="75" height="75">
+      <animateTransform
+        attributeName="transform"
+        type="scale"
+        values="1;1.12;1"
+        dur="2s"
+        begin="1.5s"
+        repeatCount="indefinite"/>
+    </image>
+  </g>
+
+  <!-- GitHub -->
+  <g filter="url(#glow)">
+    <image href="https://cdn.simpleicons.org/github/ff4fa3"
+           x="755" y="20" width="75" height="75">
+      <animateTransform
+        attributeName="transform"
+        type="scale"
+        values="1;1.12;1"
+        dur="2s"
+        begin="1.75s"
+        repeatCount="indefinite"/>
+    </image>
+  </g>
+
+</svg>
