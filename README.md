@@ -31,15 +31,21 @@
 
 <div align="center">
   <picture>
-    <!-- O arquivo github-snake-dark.svg já está configurado para usar -->
-    <!-- o tema dark padrão do GitHub que combina com suas cores escurecidas -->
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ihorrana10/ihorrana10/output/github-snake-dark.svg" />
-    <img alt="Snake animation" src="https://raw.githubusercontent.com/ihorrana10/ihorrana10/output/github-snake.svg" />
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://raw.githubusercontent.com/ihorrana10/ihorrana10/output/github-snake-dark.svg"
+    />
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://raw.githubusercontent.com/ihorrana10/ihorrana10/output/github-snake.svg"
+    />
+    <img
+      alt="Snake animation"
+      src="https://raw.githubusercontent.com/ihorrana10/ihorrana10/output/github-snake.svg"
+    />
   </picture>
 </div>
-
 ---
-
 ## 📬 Conecte-se comigo
 
 <div align="center">
