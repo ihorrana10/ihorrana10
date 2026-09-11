@@ -1,6 +1,6 @@
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ihorrana10/ihorrana10/main/dark.svg(2)">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ihorrana10/ihorrana10/main/dark.svg">
     <img alt="Banner Ihorrana" src="https://raw.githubusercontent.com/ihorrana10/ihorrana10/main/light.svg">
   </picture>
 </div>
