@@ -1,0 +1,208 @@
+<svg width="950" height="260" viewBox="0 0 950 260"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+
+    <!-- Glow neon -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Gradiente da legenda -->
+    <linearGradient id="pinkGradient"
+                    x1="0%" y1="0%"
+                    x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#241020"/>
+      <stop offset="30%" stop-color="#59163F"/>
+      <stop offset="60%" stop-color="#9C1B68"/>
+      <stop offset="80%" stop-color="#D51B91"/>
+      <stop offset="100%" stop-color="#FF2FAE"/>
+    </linearGradient>
+
+    <!-- Quadradinho base -->
+    <pattern id="grid"
+             width="18"
+             height="18"
+             patternUnits="userSpaceOnUse">
+
+      <rect x="1" y="1"
+            width="13"
+            height="13"
+            rx="3"
+            fill="#251225"/>
+    </pattern>
+
+  </defs>
+
+
+  <!-- TÍTULO -->
+  <text x="20" y="35"
+        fill="#FF2FAE"
+        font-family="Arial, sans-serif"
+        font-size="22"
+        font-weight="bold">
+    Gráfico de Contribuições
+  </text>
+
+
+  <!-- LINHA -->
+  <line x1="20" y1="52"
+        x2="930" y2="52"
+        stroke="#FF2FAE"
+        stroke-width="1"
+        opacity="0.7"/>
+
+
+  <!-- ÁREA DO GRÁFICO -->
+  <rect x="20" y="70"
+        width="900"
+        height="126"
+        fill="url(#grid)"/>
+
+
+  <!-- NÍVEL 1 — ROSA ESCURO -->
+
+  <g fill="#4D173C">
+
+    <rect x="38"  y="72" width="13" height="13" rx="3"/>
+    <rect x="92"  y="90" width="13" height="13" rx="3"/>
+    <rect x="146" y="108" width="13" height="13" rx="3"/>
+    <rect x="200" y="126" width="13" height="13" rx="3"/>
+    <rect x="254" y="144" width="13" height="13" rx="3"/>
+    <rect x="326" y="90" width="13" height="13" rx="3"/>
+    <rect x="380" y="126" width="13" height="13" rx="3"/>
+    <rect x="434" y="162" width="13" height="13" rx="3"/>
+    <rect x="488" y="108" width="13" height="13" rx="3"/>
+    <rect x="542" y="144" width="13" height="13" rx="3"/>
+    <rect x="614" y="90" width="13" height="13" rx="3"/>
+    <rect x="668" y="126" width="13" height="13" rx="3"/>
+    <rect x="722" y="162" width="13" height="13" rx="3"/>
+    <rect x="794" y="108" width="13" height="13" rx="3"/>
+    <rect x="848" y="144" width="13" height="13" rx="3"/>
+
+  </g>
+
+
+  <!-- NÍVEL 2 — ROSA MÉDIO -->
+
+  <g fill="#8A195D">
+
+    <rect x="56"  y="90" width="13" height="13" rx="3"/>
+    <rect x="128" y="72" width="13" height="13" rx="3"/>
+    <rect x="164" y="144" width="13" height="13" rx="3"/>
+    <rect x="218" y="108" width="13" height="13" rx="3"/>
+    <rect x="290" y="126" width="13" height="13" rx="3"/>
+    <rect x="344" y="162" width="13" height="13" rx="3"/>
+    <rect x="398" y="72" width="13" height="13" rx="3"/>
+    <rect x="452" y="126" width="13" height="13" rx="3"/>
+    <rect x="506" y="162" width="13" height="13" rx="3"/>
+    <rect x="578" y="108" width="13" height="13" rx="3"/>
+    <rect x="632" y="144" width="13" height="13" rx="3"/>
+    <rect x="686" y="90" width="13" height="13" rx="3"/>
+    <rect x="758" y="126" width="13" height="13" rx="3"/>
+    <rect x="812" y="72" width="13" height="13" rx="3"/>
+    <rect x="884" y="144" width="13" height="13" rx="3"/>
+
+  </g>
+
+
+  <!-- NÍVEL 3 — ROSA FORTE -->
+
+  <g fill="#C51B82">
+
+    <rect x="74"  y="126" width="13" height="13" rx="3"/>
+    <rect x="182" y="90" width="13" height="13" rx="3"/>
+    <rect x="236" y="162" width="13" height="13" rx="3"/>
+    <rect x="308" y="108" width="13" height="13" rx="3"/>
+    <rect x="362" y="144" width="13" height="13" rx="3"/>
+    <rect x="416" y="90" width="13" height="13" rx="3"/>
+    <rect x="470" y="144" width="13" height="13" rx="3"/>
+    <rect x="524" y="72" width="13" height="13" rx="3"/>
+    <rect x="596" y="162" width="13" height="13" rx="3"/>
+    <rect x="650" y="108" width="13" height="13" rx="3"/>
+    <rect x="704" y="144" width="13" height="13" rx="3"/>
+    <rect x="776" y="90" width="13" height="13" rx="3"/>
+    <rect x="830" y="126" width="13" height="13" rx="3"/>
+    <rect x="902" y="108" width="13" height="13" rx="3"/>
+
+  </g>
+
+
+  <!-- NÍVEL 4 — NEON -->
+
+  <g fill="#FF2FAE" filter="url(#glow)">
+
+    <rect x="110" y="108" width="13" height="13" rx="3"/>
+    <rect x="272" y="90" width="13" height="13" rx="3"/>
+    <rect x="326" y="144" width="13" height="13" rx="3"/>
+    <rect x="452" y="108" width="13" height="13" rx="3"/>
+    <rect x="560" y="126" width="13" height="13" rx="3"/>
+    <rect x="614" y="72" width="13" height="13" rx="3"/>
+    <rect x="740" y="108" width="13" height="13" rx="3"/>
+    <rect x="866" y="72" width="13" height="13" rx="3"/>
+
+  </g>
+
+
+  <!-- ALGUNS QUADRADOS COM PULSAÇÃO -->
+
+  <g fill="#FF2FAE" filter="url(#glow)">
+
+    <rect x="164" y="126" width="13" height="13" rx="3">
+      <animate attributeName="opacity"
+               values="0.4;1;0.4"
+               dur="2s"
+               repeatCount="indefinite"/>
+    </rect>
+
+    <rect x="506" y="90" width="13" height="13" rx="3">
+      <animate attributeName="opacity"
+               values="1;0.35;1"
+               dur="2.5s"
+               repeatCount="indefinite"/>
+    </rect>
+
+    <rect x="722" y="90" width="13" height="13" rx="3">
+      <animate attributeName="opacity"
+               values="0.3;1;0.3"
+               dur="1.8s"
+               repeatCount="indefinite"/>
+    </rect>
+
+    <rect x="884" y="72" width="13" height="13" rx="3">
+      <animate attributeName="opacity"
+               values="1;0.3;1"
+               dur="2.2s"
+               repeatCount="indefinite"/>
+    </rect>
+
+  </g>
+
+
+  <!-- LEGENDA -->
+
+  <rect x="20" y="220"
+        width="260"
+        height="12"
+        rx="6"
+        fill="url(#pinkGradient)"/>
+
+  <text x="20" y="250"
+        fill="#C86AA8"
+        font-family="Arial, sans-serif"
+        font-size="13">
+    Menos contribuições
+  </text>
+
+  <text x="300" y="230"
+        fill="#FF2FAE"
+        font-family="Arial, sans-serif"
+        font-size="13">
+    Mais contribuições
+  </text>
+
+</svg>
