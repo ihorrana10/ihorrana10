@@ -1,8 +1,7 @@
-<svg width="850" height="120" viewBox="0 0 850 120"
-     xmlns="http://www.w3.org/2000/svg">
+<svg width="850" height="120" viewBox="0 0 850 120" xmlns="http://www.w3.org/2000/svg">
 
   <defs>
-    <filter id="glow">
+    <filter id="neon">
       <feGaussianBlur stdDeviation="3" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
@@ -11,115 +10,178 @@
     </filter>
   </defs>
 
-  <!-- HTML -->
-  <g filter="url(#glow)">
-    <image href="https://cdn.simpleicons.org/html5/ff4fa3"
-           x="20" y="20" width="75" height="75">
-      <animateTransform
-        attributeName="transform"
-        type="scale"
-        values="1;1.12;1"
-        dur="2s"
-        repeatCount="indefinite"/>
-    </image>
+  <!-- HTML5 -->
+  <g fill="#FF2FAE" filter="url(#neon)">
+    <polygon points="15,15 80,15 74,88 47,98 21,88"/>
+    <polygon fill="#1a1a1a" points="24,25 71,25 67,80 47,89 28,80"/>
+    <text x="47" y="70"
+          text-anchor="middle"
+          font-family="Arial"
+          font-size="30"
+          font-weight="bold"
+          fill="#FF2FAE">5</text>
+
+    <animate attributeName="opacity"
+             values="1;0.55;1"
+             dur="2s"
+             repeatCount="indefinite"/>
   </g>
+
 
   <!-- CSS -->
-  <g filter="url(#glow)">
-    <image href="https://cdn.simpleicons.org/css/ff4fa3"
-           x="125" y="20" width="75" height="75">
-      <animateTransform
-        attributeName="transform"
-        type="scale"
-        values="1;1.12;1"
-        dur="2s"
-        begin="0.25s"
-        repeatCount="indefinite"/>
-    </image>
+  <g transform="translate(100,0)" fill="#FF2FAE" filter="url(#neon)">
+    <polygon points="15,15 80,15 74,88 47,98 21,88"/>
+    <polygon fill="#1a1a1a" points="24,25 71,25 67,80 47,89 28,80"/>
+    <text x="47" y="69"
+          text-anchor="middle"
+          font-family="Arial"
+          font-size="25"
+          font-weight="bold"
+          fill="#FF2FAE">CSS</text>
+
+    <animate attributeName="opacity"
+             values="0.55;1;0.55"
+             dur="2.4s"
+             repeatCount="indefinite"/>
   </g>
+
 
   <!-- JavaScript -->
-  <g filter="url(#glow)">
-    <image href="https://cdn.simpleicons.org/javascript/ff4fa3"
-           x="230" y="20" width="75" height="75">
-      <animateTransform
-        attributeName="transform"
-        type="scale"
-        values="1;1.12;1"
-        dur="2s"
-        begin="0.5s"
-        repeatCount="indefinite"/>
-    </image>
+  <g transform="translate(200,0)" filter="url(#neon)">
+    <rect x="15" y="15" width="70" height="70" fill="#FF2FAE"/>
+    <text x="51" y="68"
+          text-anchor="middle"
+          font-family="Arial"
+          font-size="31"
+          font-weight="bold"
+          fill="#111">JS</text>
+
+    <animate attributeName="opacity"
+             values="1;0.5;1"
+             dur="2.8s"
+             repeatCount="indefinite"/>
   </g>
+
 
   <!-- React -->
-  <g filter="url(#glow)">
-    <image href="https://cdn.simpleicons.org/react/ff4fa3"
-           x="335" y="20" width="75" height="75">
-      <animateTransform
-        attributeName="transform"
-        type="scale"
-        values="1;1.12;1"
-        dur="2s"
-        begin="0.75s"
-        repeatCount="indefinite"/>
-    </image>
+  <g transform="translate(300,0)"
+     fill="none"
+     stroke="#FF2FAE"
+     stroke-width="5"
+     filter="url(#neon)">
+
+    <ellipse cx="50" cy="50" rx="38" ry="15"/>
+    <ellipse cx="50" cy="50" rx="38" ry="15"
+             transform="rotate(60 50 50)"/>
+    <ellipse cx="50" cy="50" rx="38" ry="15"
+             transform="rotate(120 50 50)"/>
+
+    <circle cx="50" cy="50" r="7" fill="#FF2FAE"/>
+
+    <animate attributeName="opacity"
+             values="0.5;1;0.5"
+             dur="2.2s"
+             repeatCount="indefinite"/>
   </g>
+
 
   <!-- Node.js -->
-  <g filter="url(#glow)">
-    <image href="https://cdn.simpleicons.org/nodedotjs/ff4fa3"
-           x="440" y="20" width="75" height="75">
-      <animateTransform
-        attributeName="transform"
-        type="scale"
-        values="1;1.12;1"
-        dur="2s"
-        begin="1s"
-        repeatCount="indefinite"/>
-    </image>
+  <g transform="translate(400,0)" filter="url(#neon)">
+    <polygon
+      points="50,10 85,30 85,70 50,90 15,70 15,30"
+      fill="none"
+      stroke="#FF2FAE"
+      stroke-width="5"/>
+
+    <text x="50" y="61"
+          text-anchor="middle"
+          font-family="Arial"
+          font-size="23"
+          font-weight="bold"
+          fill="#FF2FAE">JS</text>
+
+    <animate attributeName="opacity"
+             values="1;0.55;1"
+             dur="2.6s"
+             repeatCount="indefinite"/>
   </g>
+
 
   <!-- MySQL -->
-  <g filter="url(#glow)">
-    <image href="https://cdn.simpleicons.org/mysql/ff4fa3"
-           x="545" y="20" width="75" height="75">
-      <animateTransform
-        attributeName="transform"
-        type="scale"
-        values="1;1.12;1"
-        dur="2s"
-        begin="1.25s"
-        repeatCount="indefinite"/>
-    </image>
+  <g transform="translate(500,0)"
+     fill="#FF2FAE"
+     filter="url(#neon)">
+
+    <text x="5" y="64"
+          font-family="Arial"
+          font-size="27"
+          font-weight="bold">MySQL</text>
+
+    <path
+      d="M65 72
+         C76 69 82 72 87 79
+         C80 77 74 78 68 82
+         C73 75 70 73 65 72Z"
+      fill="#FF2FAE"/>
+
+    <animate attributeName="opacity"
+             values="0.55;1;0.55"
+             dur="2.3s"
+             repeatCount="indefinite"/>
   </g>
+
 
   <!-- Git -->
-  <g filter="url(#glow)">
-    <image href="https://cdn.simpleicons.org/git/ff4fa3"
-           x="650" y="20" width="75" height="75">
-      <animateTransform
-        attributeName="transform"
-        type="scale"
-        values="1;1.12;1"
-        dur="2s"
-        begin="1.5s"
-        repeatCount="indefinite"/>
-    </image>
+  <g transform="translate(625,0)"
+     fill="none"
+     stroke="#FF2FAE"
+     stroke-width="6"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     filter="url(#neon)">
+
+    <polygon points="50,12 88,50 50,88 12,50"
+             fill="none"/>
+
+    <line x1="35" y1="38" x2="50" y2="53"/>
+    <line x1="50" y1="53" x2="67" y2="36"/>
+    <line x1="50" y1="53" x2="50" y2="72"/>
+
+    <circle cx="35" cy="38" r="5" fill="#FF2FAE"/>
+    <circle cx="67" cy="36" r="5" fill="#FF2FAE"/>
+    <circle cx="50" cy="72" r="5" fill="#FF2FAE"/>
+
+    <animate attributeName="opacity"
+             values="1;0.5;1"
+             dur="2.7s"
+             repeatCount="indefinite"/>
   </g>
 
+
   <!-- GitHub -->
-  <g filter="url(#glow)">
-    <image href="https://cdn.simpleicons.org/github/ff4fa3"
-           x="755" y="20" width="75" height="75">
-      <animateTransform
-        attributeName="transform"
-        type="scale"
-        values="1;1.12;1"
-        dur="2s"
-        begin="1.75s"
-        repeatCount="indefinite"/>
-    </image>
+  <g transform="translate(725,15)"
+     fill="#FF2FAE"
+     filter="url(#neon)">
+
+    <circle cx="50" cy="50" r="40"/>
+
+    <path fill="#111"
+      d="M31 39
+         C31 30 39 23 50 23
+         C61 23 69 30 69 39
+         C69 46 65 52 59 55
+         L62 65
+         C62 69 58 70 56 67
+         L50 59
+         L44 67
+         C42 70 38 69 38 65
+         L41 55
+         C35 52 31 46 31 39Z"/>
+
+    <animate attributeName="opacity"
+             values="0.5;1;0.5"
+             dur="2.5s"
+             repeatCount="indefinite"/>
   </g>
 
 </svg>
