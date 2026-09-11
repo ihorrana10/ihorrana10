@@ -5,6 +5,11 @@
   </picture>
 </div>
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ihorrana10/ihorrana10/main/repos-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ihorrana10/ihorrana10/main/repos-light.svg">
+  <img alt="Repositórios populares" src="https://raw.githubusercontent.com/ihorrana10/ihorrana10/main/repos-light.svg">
+</picture>
 
 ---
 
